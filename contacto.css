@@ -93,3 +93,7 @@ p {
 p:first-child {
     margin-top: 2rem;
 }
+
+p:last-child, img:last-child {
+    margin-bottom: 5rem;
+}

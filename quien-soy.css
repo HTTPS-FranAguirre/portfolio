@@ -97,3 +97,7 @@ p:first-child {
 b {
     color: orangered;
 }
+
+p:last-child, img:last-child {
+    margin-bottom: 5rem;
+}

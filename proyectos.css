@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+.circle {
+    border: 3px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 320px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(img/proyectos.png);
+}
+
+.circle-secondary {
+    border: 3px solid black;
+    border-radius: 50%;
+    /* width: 1200px; */
+    width: 400vw;
+    /* height: 1200px; */
+    height: 400vh;
+    position: fixed;
+    top: 111px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.background-title {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+}
+
+.text-title {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 0.5rem;
+}
+
+.button-next {
+    z-index: 9;
+    width: 140px;
+    height: 39px;
+    border-radius: 25.74px;
+    border: 1.56px solid #000;
+    background: #FFF;
+    position: fixed;
+    /* top: 513px; */
+    top: 90vh;
+    /* left: 176px; */
+    left: 55vw;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0;
+}
+
+.button-next-link {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button-back {
+    z-index: 9;
+    width: 140px;
+    height: 39px;
+    border-radius: 25.74px;
+    border: 1.56px solid #000;
+    background: #FFF;
+    position: fixed;
+    /* top: 513px; */
+    top: 90vh;
+    /* right: 176px; */
+    right: 55vw;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0;
+}
+
+.button-back-link {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.content {
+    clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
+    box-sizing: border-box;
+    /* width: 320px; */
+    width: 90vw;
+    /* height: 376px; */
+    height: 67vh;
+    overflow-y: auto;
+    margin-top: 3vh;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+p:first-child {
+    margin-top: 2rem;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

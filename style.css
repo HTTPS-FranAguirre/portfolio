@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+    background-image: url(img/fondo-principal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.titulo {
+    display: block;
+    font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+    color: black;
+}

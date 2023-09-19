@@ -59,9 +59,9 @@ body {
     background: #FFF;
     position: fixed;
     /* top: 513px; */
-    top: 90vh;
+    bottom: 2vh;
     /* right: 176px; */
-    right: 55vw;
+    left: 2vw;
     font-family: 'IBM Plex Mono', monospace;
     padding: 0;
 }

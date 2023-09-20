@@ -96,6 +96,22 @@ p:first-child {
     margin-top: 2rem;
 }
 
+b {
+    color: orangered;
+}
+
 p:last-child, img:last-child {
     margin-bottom: 5rem;
+}
+
+.current-page-indicator {
+    color: gray;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 105px;
+    width: 320px;
+    z-index: 99;
 }

@@ -147,12 +147,12 @@ p:last-child, img:last-child {
 
 .current-page-indicator {
     color: gray;
+    border: 1px solid red;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     position: absolute;
     top: 105px;
-    width: 320px;
     z-index: 99;
 }

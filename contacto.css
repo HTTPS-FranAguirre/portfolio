@@ -45,9 +45,9 @@ body {
     margin: 0;
 }
 
-.text-title {
+.text-title-h1 {
     color: black;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-family: 'IBM Plex Mono', monospace;
     margin-bottom: 0.5rem;
 }

@@ -25,9 +25,7 @@ body {
 .circle-secondary {
     border: 3px solid black;
     border-radius: 50%;
-    /* width: 1200px; */
     width: 400vw;
-    /* height: 1200px; */
     height: 400vh;
     position: fixed;
     top: 100px;
@@ -67,9 +65,7 @@ body {
     border: 1.56px solid #000;
     background: #FFF;
     position: fixed;
-    /* top: 513px; */
     bottom: 2vh;
-    /* left: 176px; */
     right: 2vw;
     font-family: 'IBM Plex Mono', monospace;
     padding: 0;
@@ -84,9 +80,7 @@ body {
 .content {
     clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
     box-sizing: border-box;
-    /* width: 320px; */
     width: 90vw;
-    /* height: 376px; */
     height: 67vh;
     overflow-y: auto;
     margin-top: 2vh;

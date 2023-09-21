@@ -118,7 +118,7 @@ p:last-child, img:last-child {
     width: 320px;
     height: 161px;
     font: normal 16px/1 ultra;
-    color: gray;
+    color: white;
 }
 
 [class*='warp__'] {

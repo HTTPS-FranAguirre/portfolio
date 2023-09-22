@@ -100,7 +100,7 @@ body {
     clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
     box-sizing: border-box;
     width: 90vw;
-    height: 67vh;
+    height: 65vh;
     overflow-y: auto;
     margin-top: 2vh;
 }
